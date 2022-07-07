@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "2d68b0c1-a928-4f23-bd27-2893b2195c73",
+		"name": "Redis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20419779"
+	},
+	"item": [
+		{
+			"name": "StudentRedis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Lemoel Marques Vieira\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/students/28c798f6-5c5d-4871-988f-75011bc57714",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"students",
+						"28c798f6-5c5d-4871-988f-75011bc57714"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/students/28c798f6-5c5d-4871-988f-75011bc57714",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"students",
+						"28c798f6-5c5d-4871-988f-75011bc57714"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StudentAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"students"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
