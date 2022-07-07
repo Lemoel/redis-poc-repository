@@ -1,5 +1,5 @@
 # redis-poc
-Um POC usando Redis
+Uma POC usando Redis
 
 ### Insert
 
