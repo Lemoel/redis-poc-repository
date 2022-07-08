@@ -6,7 +6,6 @@ import org.springframework.data.redis.core.TimeToLive
 import java.util.*
 
 @RedisHash("Student")
-@PropertySource("classpath:/application.yaml")
 //@RedisHash("Student", timeToLive = 120)
 data class Student(
     val id: UUID? = UUID.randomUUID(),
