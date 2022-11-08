@@ -1,4 +1,4 @@
-package com.poc.redis.entitie
+package com.poc.redis.entity
 
 import org.springframework.data.redis.core.RedisHash
 import org.springframework.data.redis.core.TimeToLive

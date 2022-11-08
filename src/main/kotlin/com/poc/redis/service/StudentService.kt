@@ -1,6 +1,6 @@
 package com.poc.redis.service
 
-import com.poc.redis.entitie.Student
+import com.poc.redis.entity.Student
 import com.poc.redis.repository.StudentRepository
 import org.springframework.stereotype.Service
 import java.util.*

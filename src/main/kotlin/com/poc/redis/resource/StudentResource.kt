@@ -1,6 +1,6 @@
 package com.poc.redis.resource
 
-import com.poc.redis.entitie.Student
+import com.poc.redis.entity.Student
 import com.poc.redis.service.StudentService
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
