@@ -1,6 +1,5 @@
 package com.poc.redis.entitie
 
-import org.springframework.context.annotation.PropertySource
 import org.springframework.data.redis.core.RedisHash
 import org.springframework.data.redis.core.TimeToLive
 import java.util.*
